@@ -23,7 +23,8 @@
 #define HEARTBEAT_LEDPIN 14
 #define DEFAULT_HEARTBEAT_INTERVAL 1000
 
-#define TESTING 1
+#define TESTING 0 // This enables/disables serial output.
+                  // Please make TESTING == 0 when NOT in testing mode, otherise it needs to be 1. 
 
 // Define sensors
 ECGSensor sensorLL(A1);  // PB08 red
