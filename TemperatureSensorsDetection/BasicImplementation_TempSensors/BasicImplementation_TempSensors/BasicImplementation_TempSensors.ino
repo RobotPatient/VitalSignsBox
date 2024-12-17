@@ -1,3 +1,17 @@
+/*
+    Johan Korten
+    for HAN ESE, WKZ, Capgemini / GET Hackaton Challenge 2025
+
+    V1.0 Jan 2025
+
+    Based on Wire Slave Sender and Receiver by Nicholas Zambetti <http://www.zambetti.com> March 2006
+
+    For your convenience we implemented:
+    - Reading both channels of the MCP3426 (CH1+ and CH2+). This detects if a temperature sensor is connected.
+    - Very basic implementation just as proof of concept. (ToDo: serious refactoring ;)).
+
+*/
+
 #include <Wire.h>
 #include "WireScanner.h"
 #include "TwiPinHelper.h"
