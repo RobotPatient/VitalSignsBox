@@ -18,3 +18,10 @@ Reads the three sensors that detect the LL/LA/RA ECG leads (10-bit resolution fo
 
 Allows a SensorHub to read both channels CH1+ and CH2+ of the MCP3426 sensors.
 They share the same address so it uses both A and B i2c ports.
+
+
+### Boards
+
+All boards are based on: https://www.adafruit.com/product/3403
+
+This is a great get started: https://learn.adafruit.com/adafruit-feather-m0-express-designed-for-circuit-python-circuitpython
